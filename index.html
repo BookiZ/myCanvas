@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+   
+    
+    
+</head>
+<body>
+    <canvas id="canvas" width="500" height="500">
+
+    </canvas>
+    <div class="action" id="action">
+            <svg class="icon active" id=brush>
+                    <use xlink:href="#icon-pen"></use>
+            </svg>
+            <svg class="icon" id=earaser>
+                    <use xlink:href="#icon-eraser"></use>
+            </svg>
+            <svg class="icon" id="delet">
+                    <use xlink:href="#icon-shanchu"></use>
+            </svg>
+            <svg class="icon" id="save">
+                    <use xlink:href="#icon-baocundaobendi"></use>
+            </svg>
+    
+    </div>
+    <div class="color">
+    <ol>
+        <li class="black active" id="black"></li>
+
+        <li class="red " id="red"></li>
+        <li class="blue" id="blue"></li>
+        <li class="yellow" id="yellow"></li>
+        <li class="green" id="green"></li>
+    </ol>
+    </div>
+    <div class="line">
+        <div class="thin" id="thin"></div>
+        <div class="thick" id="thick"></div>
+    </div>
+    <script src="//at.alicdn.com/t/font_594643_fozc2ll474swz5mi.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
