@@ -182,17 +182,7 @@
         black.classList.remove('active')
 
     }
-    blue.onclick=function(){
-        ctx.fillStyle=" blue"
-        ctx.strokeStyle=" blue";
-        blue.classList.add('active')
-        red.classList.remove('active')
-        yellow.classList.remove('active')
-        green.classList.remove('active')
-        black.classList.remove('active')
-
-
-    } 
+    
     yellow.onclick=function(){
         ctx.fillStyle="yellow"
         ctx.strokeStyle="yellow";
