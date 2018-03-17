@@ -1,6 +1,4 @@
-        document.body.ontouchstart=function(eee){
-            eee.preventDefault();
-        }
+
         var canvas=document.getElementById('canvas');
         //console.log(canvas)
         var ctx = canvas.getContext('2d');
